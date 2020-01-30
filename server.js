@@ -10,11 +10,8 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-// var apiRoutes = require("./controllers/api_routes");
-// app.use(apiRoutes);
-
-// var htmlRoutes = require("./controllers/html_routes.js");
-// app.use(htmlRoutes);
+var routes = require("./controllers/routes");
+app.use(routes);
 
 db.sequelize.sync().then(function() {
     app.listen(PORT, function() {
