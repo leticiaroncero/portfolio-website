@@ -1,3 +1,22 @@
+body {
+    background: #ffffff;
+    color: #898989;
+    font-family: 'Poppins', helvetica;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+}
+
+section {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+/*---------------------------------------------------------------------------*/
+/*  Navbar
+/*---------------------------------------------------------------------------*/
+
 .logo {
     float: left;
 }
@@ -13,7 +32,7 @@ nav ul li {
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
     margin-left: 40px;
-  }
+}
 
 nav ul li a {
     padding: 2px 0 0 0;
@@ -24,15 +43,86 @@ nav ul li a {
     letter-spacing: 0.1em;
     font-weight: 500;
     line-height: 14px;
-    /* text-transform: uppercase; */
 }
+
+/*---------------------------------------------------------------------------*/
+/*  Header
+/*---------------------------------------------------------------------------*/
+
+header {
+    background: url("https://via.placeholder.com/1100x500.jpg") repeat scroll center center / cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.header-content {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    color: #fff;
+}
+
+.header-content h1 {
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.header-content p {
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: capitalize;
+    letter-spacing: 5px;
+} 
 
 .header-content .list-social li {
     float: left;
     margin-right: 20px;
-  }
-  
+}
+
 .header-content .list-social li i {
-    color: red;
     font-size: 15px;
-  }
+    color: #fff;
+}
+
+/*---------------------------------------------------------------------------*/
+/*  About
+/*---------------------------------------------------------------------------*/
+
+#about {
+    padding-top: 190px;
+    background: #f7f7f7;
+} 
+
+.about-img-bg {
+    padding-bottom: 30px;
+    border: 20px solid #b8a07e;
+}
+
+.about-img img {
+    width: 100%;
+    box-shadow: 0px 0px 85px 0px rgba(0, 0, 0, 0.14);
+    margin-top: -60px;
+    margin-left: 40px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.p-heading {
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    text-align: left;
+    line-height: 30px;
+}
+
+.separator {
+    /* max-width: 80%; */
+    margin-bottom: 0;
+    text-align: justify;
+}
