@@ -79,11 +79,11 @@ nav ul li a {
     color: #999999;
     letter-spacing: 0.1em;
 }
+
 nav ul li a:hover {
     color: #b8a07e;
     text-decoration: none;
 }
-
 
 /*---------------------------------------------------------------------------*/
 
@@ -222,6 +222,9 @@ header {
     width: 100%;
     min-height: 3em;
     font-size: 12px;
+}
+
+#contact input {
     text-transform: uppercase;
 }
 
