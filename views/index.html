@@ -117,7 +117,7 @@
 
         <div class="main-content text-center">
             <div class="card">
-                <img src="assets/images/trivia.png" class="card-img-top" alt="Taskify">
+                <img src="/assets/img/taskify.png" class="card-img-top" alt="Taskify">
                 <div class="card-body">
                     <h5 class="card-title">Taskify</h5>
                     <p class="card-text">
@@ -129,7 +129,42 @@
             </div>
 
             <div class="card">
-                <img src="assets/images/travel.png" class="card-img-top" alt="All Twins Trivia">
+                <img src="/assets/img/burger.png" class="card-img-top" alt="Burger">
+                <div class="card-body">
+                    <h5 class="card-title">Burger Logger</h5>
+                    <p class="card-text">
+                        Built with MySQL, Node, Express, Handlebars and a homemade ORM.
+                    </p>
+                    <a href="https://shielded-anchorage-21706.herokuapp.com/" class="btn" id="card-btn">Website</a>
+                    <a href="https://github.com/leticiaroncero/burger" class="btn" id="card-btn">Github</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="/assets/img/book-finder.png" class="card-img-top" alt="Book Finder">
+                <div class="card-body">
+                    <h5 class="card-title">Book Finder</h5>
+                    <p class="card-text">
+                        Find user generated read-alike recommendations for your favorite books.
+                    </p>
+                    <a href="https://sheltered-beach-38162.herokuapp.com/" class="btn" id="card-btn">Website</a>
+                    <a href="https://github.com/leticiaroncero/BookFinder" class="btn" id="card-btn">Github</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="/assets/img/bamazon-manager-view.png" class="card-img-top" alt="Bamazon">
+                <div class="card-body">
+                    <h5 class="card-title">Bamazon</h5>
+                    <p class="card-text">
+                        An Amazon-like storefront node app that takes in orders from customers.
+                    </p>
+                    <a href="https://github.com/leticiaroncero/bamazon" class="btn" id="card-btn">Github</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="/assets/img/travel.png" class="card-img-top" alt="KLMS Travel">
                 <div class="card-body">
                     <h5 class="card-title">K.L.M.S. Travel</h5>
                     <p class="card-text">One-stop-shop for travelers seeking general information.</p>
@@ -139,7 +174,7 @@
             </div>
 
             <div class="card">
-                <img src="assets/images/train.png" class="card-img-top" alt="Train Scheduler">
+                <img src="/assets/img/train.png" class="card-img-top" alt="Train Scheduler">
                 <div class="card-body">
                     <h5 class="card-title">Train Scheduler</h5>
                     <p class="card-text">Check when the next train will arrive at any given station.</p>
@@ -149,17 +184,17 @@
             </div>
 
             <div class="card">
-                <img src="assets/images/psychic-game.png" class="card-img-top" alt="Psychic Game">
+                <img src="/assets/img/trivia.png" class="card-img-top" alt="Trivia Game">
                 <div class="card-body">
-                    <h5 class="card-title">Psychic Game</h5>
-                    <p class="card-text">A “Guess the Letter" game.</p>
-                    <a href="https://leticiaroncero.github.io/Psychic-Game/" class="btn" id="card-btn">Website</a>
-                    <a href="https://github.com/leticiaroncero/Psychic-Game" class="btn" id="card-btn">Github</a>
+                    <h5 class="card-title">Trivia Game</h5>
+                    <p class="card-text">A fun quiz game built with jQuery.</p>
+                    <a href="https://leticiaroncero.github.io/TriviaGame/" class="btn" id="card-btn">Website</a>
+                    <a href="https://github.com/leticiaroncero/TriviaGame" class="btn" id="card-btn">Github</a>
                 </div>
             </div>
 
             <div class="card">
-                <img src="assets/images/giftastic.png" class="card-img-top" alt="GifTastic">
+                <img src="/assets/img/giftastic.png" class="card-img-top" alt="GifTastic">
                 <div class="card-body">
                     <h5 class="card-title">GifTastic</h5>
                     <p class="card-text">A GIF generator that uses Giphy's API.</p>
@@ -192,32 +227,32 @@
                     </div>
 
                     <div class="col-lg-6">
-                        <form action="" method="post" role="form" class="contactForm">
+                        <form action="/" method="post" role="form" class="contactForm">
                             <div class="row">
                                 <div class="col-lg-6">
                                     <div class="form-group contact-block1">
                                         <input type="text" name="name" class="form-control" id="name"
-                                            placeholder="Your Name" />
+                                            placeholder="Your Name" required />
                                     </div>
                                 </div>
 
                                 <div class="col-lg-6">
                                     <div class="form-group">
                                         <input type="email" class="form-control" name="email" id="email"
-                                            placeholder="Your Email" data-rule="email" /> </div>
+                                            placeholder="Your Email" data-rule="email" required /> </div>
                                 </div>
 
                                 <div class="col-lg-12">
                                     <div class="form-group">
                                         <input type="text" class="form-control" name="subject" id="subject"
-                                            placeholder="Subject" />
+                                            placeholder="Subject" required />
                                     </div>
                                 </div>
 
                                 <div class="col-lg-12">
                                     <div class="form-group">
                                         <textarea class="form-control" name="message" rows="12" data-rule="required"
-                                            placeholder="Message"></textarea>
+                                            placeholder="Message" required></textarea>
                                     </div>
                                 </div>
 
