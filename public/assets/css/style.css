@@ -13,7 +13,30 @@ section {
     padding-bottom: 90px;
 }
 
+.btn {
+    background: #333;
+    border: medium none;
+    border-radius: 0;
+    color: #fff;
+    font-size: 12px;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 30px;
+    text-transform: uppercase;
+}
+
+.btn:hover, .btn:focus {
+    color: #fff;
+    background: #555;
+}
+
+h2 {
+    color: #292929;
+    font-weight: 600;
+}
+
 /*---------------------------------------------------------------------------*/
+
 /*  Navbar
 /*---------------------------------------------------------------------------*/
 
@@ -46,6 +69,7 @@ nav ul li a {
 }
 
 /*---------------------------------------------------------------------------*/
+
 /*  Header
 /*---------------------------------------------------------------------------*/
 
@@ -79,7 +103,7 @@ header {
     font-weight: 500;
     text-transform: capitalize;
     letter-spacing: 5px;
-} 
+}
 
 .header-content .list-social li {
     float: left;
@@ -92,13 +116,14 @@ header {
 }
 
 /*---------------------------------------------------------------------------*/
+
 /*  About
 /*---------------------------------------------------------------------------*/
 
 #about {
     padding-top: 190px;
     background: #f7f7f7;
-} 
+}
 
 .about-img-bg {
     padding-bottom: 30px;
@@ -125,4 +150,64 @@ header {
     /* max-width: 80%; */
     margin-bottom: 0;
     text-align: justify;
+}
+
+/*---------------------------------------------------------------------------*/
+
+/*  Portfolio
+/*---------------------------------------------------------------------------*/
+
+.card {
+    margin: 0 10px 30px;
+    width: 17rem;
+    display: inline-block;
+    text-align: left;
+}
+
+.card-text {
+    height: 4em;
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/*---------------------------------------------------------------------------*/
+
+/*  Contact
+/*---------------------------------------------------------------------------*/
+
+#contact {
+    height: auto;
+    width: 100%;
+    background: #f7f7f7;
+}
+
+.form-control{
+    border: 1px solid #999;
+    border-radius: 0%;
+}
+
+.contact-details {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-details li {
+    padding-bottom: 10px;
+}
+
+#contact input, #contact textarea {
+    width: 100%;
+    min-height: 3em;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.section-title {
+    margin-bottom: 30px;
 }
