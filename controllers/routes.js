@@ -15,10 +15,10 @@ router.post("/", function (req, res) {
         message: req.body.message
     })
         .then(function () {
-            res.sendFile("index.html", { 'root': "./views" });
+            res.redirect("/");
         })
         .catch(function (err) {
-            res.status(401).json(err);
+            res.status(400).json(err);
         });
 })
 
