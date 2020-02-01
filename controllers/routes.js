@@ -7,4 +7,19 @@ router.get("/", function (req, res) {
     res.sendFile("index.html", { 'root': "./views" });
 });
 
+router.post("/", function (req, res) {
+    db.Contact.create({
+        name: req.body.name,
+        email: req.body.email,
+        subject: req.body.subject,
+        message: req.body.message
+    })
+        .then(function () {
+            res.sendFile("index.html", { 'root': "./views" });
+        })
+        .catch(function (err) {
+            res.status(401).json(err);
+        });
+})
+
 module.exports = router;

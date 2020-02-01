@@ -4,3 +4,9 @@ var typed = new Typed('.typed', {
     loop: true,
     loopCount: 3
 });
+
+// $(document).ready(function () {
+//     $('.contactForm').submit(function (event) {
+//         $('submit').attr('value', 'Message Sent!');
+//     })
+// });
