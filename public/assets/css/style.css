@@ -231,3 +231,30 @@ header {
 .section-title {
     margin-bottom: 30px;
 }
+
+/*---------------------------------------------------------------------------*/
+
+/*  Media queries
+/*---------------------------------------------------------------------------*/
+
+@media (max-width: 991px) {
+    .nav-menu li {
+        float: none;
+        width: 100%;
+        text-align: center;
+        border-top: 1px solid #f7f7f7;
+        margin-left: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .about-img-bg {
+        margin-bottom: 45px;
+        margin-right: 45px;
+    }
+    .about-descr {
+        margin: 0 15px;
+    }
+    .contact-details {
+        margin-bottom: 15px;
+    }
+}
