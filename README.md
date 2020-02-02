@@ -14,6 +14,8 @@ New portfolio website with an updated design, and most recent projects additions
 * Bootstrap Grid Layout
 * JavaScript
 * Jquery
+* [Typed.js Library](https://github.com/mattboldt/typed.js/)
+* [Ionicons icon set](https://ionicons.com/)
 
 ***Backend***
 * Node.js
